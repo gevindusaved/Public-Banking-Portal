@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Kalnia:wght@100..700&family=Lusitana:wght@400;700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+
+
+.body-user {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: auto;
+    background-color: rgb(19, 19, 19);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    z-index: -889;
+    overflow: auto;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+.body-user::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.navbar-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 999;    
+}
+
+.navbar-panel {
+    position: fixed;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.nav-links {
+    padding: 10px 20px 10px 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.hero-header {
+    background-image: url('../image/future-of-banking-digitalisation-and-data-hero-1600-570\ \(1\)\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
+    top: 0;
+    padding: 60px 20px 20px 30px;
+}
+
+.hero-header-h2 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.hero-header-p {
+    font-family: "poppins", sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+.content-acc-container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}

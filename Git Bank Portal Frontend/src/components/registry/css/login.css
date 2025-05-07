@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Kalnia:wght@100..700&family=Lusitana:wght@400;700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.login-body {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../../assets/alicja-ziajowska-AOjmfr3ofSY-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+    padding: 50px 35px;
+    backdrop-filter: blur(6px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container * {
+    color: #ffffff;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+
+.login-h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.login-form-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-space {
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #161616;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #f0efef, #fff);
+    border: 2px solid transparent;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.resigter-button-login {
+    background-color: #00000000;
+    color: #ffffff;
+}
+
+.submit-login {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(45deg, #00ccff, #0084ff);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.submit-login:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+.message {
+    text-align: center;
+    margin-top: 15px;
+    color: #ffdede;
+    font-weight: bold;
+}
