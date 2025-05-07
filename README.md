@@ -1,10 +1,10 @@
-# 💼 Banking System Web Application
+#  Banking System Web Application
 
 A full-stack banking system designed for bank employees, offering core functionalities such as account creation, loan management, fixed deposit tracking, and transactions. Built using **React**, **Spring Boot**, and **MongoDB** as part of the **SasiyaNet Internship Program**.
 
 ---
 
-## 📋 Abstract
+##  Abstract
 
 This web-based banking system provides multiple features typically found in traditional banking software. The system includes:
 
@@ -16,7 +16,7 @@ This web-based banking system provides multiple features typically found in trad
 
 ---
 
-## 📚 Introduction
+##  Introduction
 
 ### 1. Background
 
@@ -63,7 +63,7 @@ View fixed deposit data including:
 
 ---
 
-## 🏗️ System Design & Architecture
+##  System Design & Architecture
 
 ### 1. Overview
 
@@ -81,8 +81,8 @@ View fixed deposit data including:
 
 ### 3. Architecture & Class Diagram
 
-📄 [View Class Diagram](https://drive.google.com/file/d/1EczIp3ngCZ7DObVNq7_y8ICUfQsSHRrS/view?usp=sharing)  
-📄 [View ER Diagram](https://drive.google.com/file/d/1KndkpIlyd4dlPmW-emnWSh2ThGF0DQTb/view?usp=sharing)
+ [View Class Diagram](https://drive.google.com/file/d/1EczIp3ngCZ7DObVNq7_y8ICUfQsSHRrS/view?usp=sharing)  
+ [View ER Diagram](https://drive.google.com/file/d/1KndkpIlyd4dlPmW-emnWSh2ThGF0DQTb/view?usp=sharing)
 
 ### 4. Key Functional Design
 
