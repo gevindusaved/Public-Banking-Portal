@@ -97,7 +97,7 @@ View fixed deposit data including:
 
 ---
 
-## 🚀 Implementation Highlights
+##  Implementation Highlights
 
 - Dark-themed React UI
 - Secure user management
@@ -107,7 +107,7 @@ View fixed deposit data including:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - JWT-based secure login system
 - Real-time balance display
@@ -117,14 +117,14 @@ View fixed deposit data including:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Trainee Software Engineer**  
 Developed as part of the SasiyaNet Internship Program
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed for academic and educational use. Contact the author for other licensing options.
 
